@@ -27,3 +27,12 @@ function prependCat(name){
     return catsNew
 }
 
+function removeLastCat(){
+    const catsNew = cats.slice(0,cats.length-1)
+    return catsNew
+}
+
+function removeFirstCat(){
+   const catsNew = cats.slice(1)
+    return catsNew
+}
